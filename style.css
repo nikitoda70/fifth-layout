@@ -1,0 +1,224 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  line-height: 1.8;
+}
+.container {
+  width: 1180px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.section-1 {
+  background: no-repeat center url('images/horse.jpg');
+  background-size: cover;
+}
+.section__header {
+  font-size: 48px;
+  margin: 120px 0 15px;
+}
+.section__header--end {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.section__p {
+  font-size: 18px;
+  color: #4b5863;
+  opacity: 0.35;
+  margin-bottom: 80px;
+}
+.section__p--end {
+  margin-bottom: 10px;
+}
+.logo-btn {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 35px rgb(218, 229, 239);
+  transition: box-shadow 0.4s;
+  height: 400px;
+  width: 400px;
+  margin-top: -200px;
+}
+.logo-btn:active,
+.logo-btn:focus {
+  outline: none;
+}
+.logo-btn:hover {
+  box-shadow: 0 0 10px rgb(218, 229, 239);
+}
+.logo-btn__header {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #43a9ff;
+  margin-top: 120px;
+}
+.logo-btn__text {
+  text-transform: uppercase;
+  color: #4b5863;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.nav-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 35px rgb(218, 229, 239);
+  transition: box-shadow 0.4s;
+  height: 60px;
+  width: 60px;
+  margin-top: 60px;
+}
+.nav-btn:active,
+.nav-btn:focus {
+  outline: none;
+}
+.nav-btn:hover {
+  box-shadow: 0 0 10px rgb(218, 229, 239);
+}
+.btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 25px;
+  background: #fff;
+  color: #43a9ff;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 0 35px rgb(218, 229, 239);
+  transition: box-shadow 0.4s;
+  margin-bottom: 930px;
+  text-transform: uppercase;
+}
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  box-shadow: 0 0 10px rgb(218, 229, 239);
+}
+.btn.sm-margin {
+  margin: 0 0 100px 0;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.features__img {
+  margin-bottom: 40px;
+}
+.features__header {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.features__text {
+  padding: 0 15px 0;
+  font-size: 14px;
+  color: #4b5863;
+  opacity: 0.35;
+}
+.example {
+  background: #f7f8fb;
+  display: flex;
+  flex-wrap: wrap;
+}
+.example__img {
+  max-width: 50%;
+}
+.example__content {
+  max-width: 50%;
+}
+.example__header {
+  font-size: 48px;
+  margin: 100px 0 30px 80px;
+}
+.example__text {
+  font-size: 16px;
+  color: #4b5863;
+  opacity: 0.35;
+  margin: 0 150px 0 80px;
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app__img-1 {
+  width: 50%;
+  padding-left: 200px;
+  background: no-repeat url('images/snowflake-1.jpg');
+}
+.app__img-2 {
+  width: 50%;
+  padding-left: 200px;
+  background: no-repeat url('images/snowflake-2.jpg');
+  background-position: bottom right;
+}
+.app__content {
+  max-width: 50%;
+  margin-top: 250px;
+  padding: 0 100px 0 100px;
+}
+.app__header {
+  color: #43a9ff;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.app__text {
+  font-size: 16px;
+  color: #4b5863;
+  opacity: 0.35;
+}
+.review {
+  background: no-repeat url('/images/review.jpg');
+}
+.review__content {
+  width: 50%;
+  padding-top: 180px;
+  padding-left: 60px;
+  margin-left: 50%;
+}
+.review__header {
+  font-size: 48px;
+  color: #fe3254;
+  margin-bottom: 40px;
+}
+.review__text {
+  margin-bottom: 70px;
+}
+.review__text,
+.review__prof {
+  font-size: 16px;
+  color: #4b5863;
+  opacity: 0.35;
+}
+.review__prof {
+  padding-bottom: 135px;
+}
+.footer {
+  background: no-repeat bottom url('/images/footer.jpg');
+}
+.footer__text {
+  padding-top: 130px;
+}
+.footer__header {
+  margin-top: 30px;
+}
